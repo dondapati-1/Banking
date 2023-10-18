@@ -24,7 +24,7 @@ public class AccountController {
         Account account1 = new Account("1", "Vilas", "Vilas Address", "123456789");
         accountSvc.addAccount(account1);
 
-        Account account2 = new Account("2", "Tousif", "Tousif Address", "987654321");
+        Account account2 = new Account("2", "yash", "yash Address", "987654321");
         accountSvc.addAccount(account2);
 
         return "Data seeded successfully!!!";
